@@ -1,7 +1,0 @@
-[build]
-  # Si c'est un sous-dossier (monorepo), décommente et ajuste:
-  # base = "apps/web"
-
-  # Force l'installation + build, même si Netlify "skip install"
-  command = "npm ci && npm run build"
-  publish = ".next"   # laissé par @netlify/plugin-nextjs
